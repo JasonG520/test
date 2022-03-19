@@ -6,6 +6,15 @@ public class People {
     private String name;
     private String useranme;
     private String password;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public String getUseranme() {
         return useranme;
